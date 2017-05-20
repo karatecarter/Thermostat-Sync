@@ -172,14 +172,17 @@ def setFanMode(source, fanMode)
                 
                 switch (fanMode) {
                     case "fanAuto":
+                    case "auto":
                         thermostat.fanAuto()
                         break
 
                     case "fanOn":
+                    case "on":
                         thermostat.fanOn()
                         break
 
                     case "fanCirculate":
+                    case "circulate":
                         thermostat.fanCirculate()
                         break
 
